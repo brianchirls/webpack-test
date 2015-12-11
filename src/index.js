@@ -1,6 +1,7 @@
 'use strict';
 
-const result = true;
+const THREE = require('three.js');
+const result = THREE !== undefined;
 
 if (typeof process !== 'undefined') {
 	process.exit(result ? 0 : 1);
