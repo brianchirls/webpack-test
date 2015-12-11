@@ -1,0 +1,20 @@
+{
+  "name": "webpack-test",
+  "version": "0.0.1",
+  "description": "Minimal repo for testing webpack-related issues",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webpack",
+    "test": "node test.js"
+  },
+  "author": "Brian Chirls <brian@chirls.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "file-loader": "^0.8.5",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9"
+  }
+}
